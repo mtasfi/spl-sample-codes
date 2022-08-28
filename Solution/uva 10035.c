@@ -30,7 +30,7 @@ void carryf(int a,int b){
 
 int carry=0, ans=0;
 
-    while(a%10!=0 || b%10!=0){
+    while(a!=0 || b!=0){
     
         int x= a%10 + b%10 + carry;
         if(x>9){
